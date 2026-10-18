@@ -1,4 +1,5 @@
-import Section from "./components/Section/Section";
+import Section from "./Section/Section";
+
 
 const App = () => {
   return (

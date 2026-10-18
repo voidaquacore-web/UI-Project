@@ -2,7 +2,7 @@
 
 const Card = ({ img, num }) => {
     return (
-        <div className="h-full bg-blue-800 w-70 relative overflow-hidden rounded-4xl">
+        <div className="h-full bg-blue-800 w-70 shrink-0 relative overflow-hidden rounded-4xl">
             <img className='object-cover h-full scale-105' src={img} alt="" />
             <div className="top-0 left-0 p-5 flex flex-col justify-between h-full w-full  absolute">
                 <h2 className="bg-white rounded-full text-black h-10 w-10 flex justify-center items-center text-2xl font-bold">{num}</h2>
